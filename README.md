@@ -37,4 +37,5 @@ https://dannyramirezgd.github.io/potential-enigma
 If you have any questions or comments you can reach out to me directly at: dannyramirezgd@gmail.com or [dannyramirezgd](https://github.com/dannyramirezgd)
 
 ## License
-Copyright (c) Dannyramirezgd
+Copyright (c) Dannyramirezgd \n
+This license made with MIT
