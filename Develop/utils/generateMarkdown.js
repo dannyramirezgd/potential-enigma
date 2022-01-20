@@ -12,7 +12,7 @@ const renderLicenseSection = (data, license) => {
   return `  
   ## License
   Copyright (c) ${data.username}\n
-  ${renderLicenseBadge(license)}
+  This license made with ${license}
   `
 
 }
@@ -51,6 +51,7 @@ const renderFrameworksSection = data => {
 }
 const generateMarkdown = data => {
   return `
+  ${renderLicenseBadge(data.license)}
 # ${data.title}
 
 ## Description
