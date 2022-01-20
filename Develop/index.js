@@ -20,6 +20,11 @@ const promptUser = () => {
       message: "What is the title of your project?",
     },
     {
+      type:"input",
+      name: "link",
+      message: "What is the full url for the live page?"
+    },
+    {
       type: "input",
       name: "description",
       message: "Please provide a short description of the project.",
@@ -49,9 +54,10 @@ const promptUser = () => {
       message: "What command should be run to install dependencies",
     },
     {
-      type: "input",
-      name: "tests",
-      message: "What command should be run to run tests?",
+      type: "checkbox",
+      name: "frameworks",
+      message: "What technologies did you use to build this app?",
+      choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node'],
     },
     {
       type: "input",
