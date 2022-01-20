@@ -87,7 +87,7 @@ ${data.link}
 ${renderContributionsSection (data.contributing)}
 
 ## Questions
-If you have any questions or comments you can reach out to me directly at: ${data.email}
+If you have any questions or comments you can reach out to me directly at: ${data.email} or [${data.username}](https://github.com/${data.username})
 ${renderLicenseSection(data, data.license)}
 `;
 }
