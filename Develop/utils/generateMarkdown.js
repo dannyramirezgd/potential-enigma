@@ -29,9 +29,8 @@ const renderContributionsSection = data => {
   if(!renderContributionsList){
     return '';
   }
-  return `
-  If you are looking to contribute you can for example: 
-  ${renderContributionsList(data)}`
+return `If you are looking to contribute you can for example: 
+${renderContributionsList(data)}`
 }
 
 const renderFrameworksList = frameworksArr => {
@@ -50,8 +49,7 @@ const renderFrameworksSection = data => {
   return `${renderFrameworksList(data)}`
 }
 const generateMarkdown = data => {
-  return `
-  ${renderLicenseBadge(data.license)}
+  return `${renderLicenseBadge(data.license)}
 # ${data.title}
 
 ## Description
