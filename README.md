@@ -1,4 +1,6 @@
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Professional README Generator
 
 ## Description
@@ -36,7 +38,3 @@ If you have any questions or comments you can reach out to me directly at: danny
 
 ## License
 Copyright (c) Dannyramirezgd
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  
-  
