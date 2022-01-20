@@ -1,6 +1,6 @@
 const renderLicenseBadge = license => {
    
-  if(!license === "Unlicense"){
+  if(license === "Unlicense"){
     return '';
   } else {
     const licenseBadge = license.replace('-', '_')
@@ -34,8 +34,8 @@ const renderContributionsSection = data => {
   If you are looking to contribute you can for example: 
   ${renderContributionsList(data)}`
 }
+
 const generateMarkdown = data => {
-  const contributions = data.contributing.slice().join(' ');
   return `
 # ${data.title}
 
@@ -44,11 +44,15 @@ ${data.description}
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#license)
 * [Contributing](#contributing)
+* [License](#license)
 ## Installation
+In order to install please enter the following code:
+\`\`\`
 ${data.installation}
+\`\`\`
 ## Usage
+${data.features}
 
 ${renderContributionsSection (data.contributing)}
 
