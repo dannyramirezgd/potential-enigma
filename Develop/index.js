@@ -75,6 +75,11 @@ const promptUser = () => {
       ]
 
     },
+    {
+      type: 'input',
+      name: 'tests',
+      message: 'What command could a user type to test the repo?'
+    }
   ]);
 };
 const writeToFile = (fileName) => {

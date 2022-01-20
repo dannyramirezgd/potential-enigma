@@ -60,8 +60,10 @@ ${data.description}
 * [Installation](#installation)
 * [Built With](#built)
 * [Usage](#usage)
+* [Tests](#tests)
 * [Contributing](#contributing)
 * [License](#license)
+* [Questions](#questions)
 ## Installation
 In order to install please enter the following code:
 \`\`\`
@@ -72,11 +74,18 @@ ${renderFrameworksSection(data.frameworks)}
 ## Usage
 ${data.features}
 
+## Tests
+If you are looking to test the program please enter this into command: 
+\`\`\`
+${data.tests}
+\`\`\`
 ## Website
 ${data.link}
 
 ## Contributing
 ${renderContributionsSection (data.contributing)}
+
+## Questions
 If you have any questions or comments you can reach out to me directly at: ${data.email}
 ${renderLicenseSection(data, data.license)}
 `;
