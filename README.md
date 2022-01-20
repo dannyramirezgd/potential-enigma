@@ -30,7 +30,7 @@ npm install inquirer
 In order to use the application you must install inquirer through npm and have a light knowledge of node.js
  
 ## Website
-https://dannyramirezgd.github.io/potential-enigma
+https://github.com/dannyramirezgd/potential-enigma
 
 ## Contributing
 
