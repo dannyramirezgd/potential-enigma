@@ -1,4 +1,6 @@
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Professional README Generator
 
 ## Description
@@ -28,15 +30,13 @@ npm install inquirer
 In order to use the application you must install inquirer through npm and have a light knowledge of node.js
  
 ## Website
-https://dannyramirezgd.github.io/potential-enigma
+https://github.com/dannyramirezgd/potential-enigma
 
 ## Contributing
 
-If you have any questions or comments you can reach out to me directly at: dannyramirezgd@gmail.com
+If you have any questions or comments you can reach out to me directly at: dannyramirezgd@gmail.com or [dannyramirezgd](https://github.com/dannyramirezgd)
 
 ## License
 Copyright (c) Dannyramirezgd
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  
-  
+This license made with MIT
