@@ -51,9 +51,8 @@ const promptUser = () => {
         }
     ])
 };
-const writeToFile = (fileName, data) => {
-    console.log(data);
-        fs.writeFile("./dist/README.md", fileName, err => {
+const writeToFile = fileName => {
+        return fs.writeFile("./dist/README.md", fileName, err => {
             err ? console.error(err) : console.log('file created!')
         }) 
 }
