@@ -59,10 +59,15 @@ const promptUser = () => {
       message: "What does the user need to know about using the Repo?",
     },
     {
-      type: "input",
+      type: "checkbox",
       name: "contributing",
-      message:
-        "What does the user need to know about contributing to the repo?",
+      message: "How can a user contribute to your repo?",
+      choices: [
+          "Submit bugs and feature requests",
+          "Review code changes",
+          "Review documentation",
+      ]
+
     },
   ]);
 };
@@ -73,7 +78,6 @@ const writeToFile = (fileName) => {
 };
 promptUser()
   .then((data) => {
-      console.log(data.username);
     return generateMarkdown(data);
   })
   .then((markdownData) => {
