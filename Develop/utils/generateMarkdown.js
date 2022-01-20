@@ -79,7 +79,7 @@ ${data.link}
 ${renderContributionsSection (data.contributing)}
 If you have any questions or comments you can reach out to me directly at: ${data.email}
 ${renderLicenseSection(data, data.license)}
-  `;
+`;
 }
 
 module.exports = generateMarkdown;
