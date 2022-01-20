@@ -1,7 +1,7 @@
 const renderLicenseBadge = license => {
    
   if(license === "Unlicense"){
-    return '';
+    return 'Unlicensed';
   } else {
     const licenseBadge = license.replace('-', '_')
     return `[![License: ${license}](https://img.shields.io/badge/License-${licenseBadge}-yellow.svg)](https://opensource.org/licenses/${license})`
@@ -12,7 +12,7 @@ const renderLicenseSection = (data, license) => {
   return `  
   ## License
   Copyright (c) ${data.username}\n
-  Licensed under the ${renderLicenseBadge(license)}
+  ${renderLicenseBadge(license)}
   `
 
 }
