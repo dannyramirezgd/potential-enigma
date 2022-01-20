@@ -57,7 +57,7 @@ ${data.description}
 
 ## Table of Contents
 * [Installation](#installation)
-* [Built With](#built)
+* [Built With](#built-with)
 * [Usage](#usage)
 * [Tests](#tests)
 * [Contributing](#contributing)
